@@ -1,0 +1,9 @@
+.button {
+    &__header {
+        display: inline-block;
+        color: #1A1A1A;
+        border-radius: 3rem;
+        padding: .75rem 1rem;
+        display: none;
+    }
+}

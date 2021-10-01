@@ -1,0 +1,10 @@
+.button {
+    &__header {
+        display: inline-block;
+        background-color: var(--first-color);
+        color: #1A1A1A;
+        border-radius: 3rem;
+        padding: .75rem 1rem;
+        display: none;
+    }
+}

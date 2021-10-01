@@ -1,0 +1,21 @@
+// Variable Dark theme
+body.dark-theme {
+    --first-color-light: hsl(var(--hue), var(--sat), 85%);
+    --title-color: hsl(var(--hue), 4%, 15%);
+    --text-color: hsl(var(--hue), 4%, 35%);
+    --text-color-light: hsl(var(--hue), 4%, 65%);
+    --body-color: hsl(var(--hue), 0%, 100%);
+    --container-color: #fff;
+    --scroll-bar-color: hsl(var(--hue), 4%, 85%);
+    --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
+}
+
+// BUTTON Dark/Light
+.change-theme {
+    position: absolute;
+    right: 1.5rem;
+    top: 2.2rem;
+    color: var(--title-color);
+    font-size: 1.8rem;
+    cursor: pointer;
+}

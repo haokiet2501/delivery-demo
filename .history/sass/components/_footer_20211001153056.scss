@@ -1,0 +1,13 @@
+.footer {
+    background-color: var(--first-color-lighten);
+    padding-bottom: 2rem;
+
+    &__container {
+        row-gap: 2rem;
+    }
+
+    &__logo,
+    &__title {
+        font-size: var();
+    }
+}

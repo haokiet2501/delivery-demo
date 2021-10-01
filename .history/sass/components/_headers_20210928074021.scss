@@ -1,0 +1,14 @@
+.header {
+    width: 100%;
+    background-color: var(--body-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    transition: .5s; // For animation dark more
+}
+
+// NAV
+.nav {
+    height: var(--header-height);
+}
